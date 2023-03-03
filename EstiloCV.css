@@ -1,0 +1,181 @@
+h2,
+h3 {
+    color: rgb(22, 209, 209);
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+    font-style: italic;
+    color: white;
+    padding-bottom: 5px;
+    border-bottom: gray 1px solid;
+    margin: 0px;
+    border-top: 0px;
+    padding-top: 5px;
+    background-color: rgb(22, 209, 209);
+}
+h2 {
+    font-size: 23px;
+    margin: 0%;
+}
+
+img {
+    /* display: block;*/
+    margin: 25px;
+    border: white 1px solid;
+    border-radius: 8px;
+}
+#ContenedorPrincipal {
+    margin: 0px 15% 0px 15%;
+    display: flex;
+}
+
+#InformacionPersonal {
+    width: 300px;
+    margin-top: 10px;
+    background-color: rgb(225, 225, 225);
+    margin-bottom: 10px;
+}
+
+#NombreApellido {
+    margin: 0px 15% 0px 15%;
+    border-bottom: 1px gray solid;
+    height: 30px;
+    padding: 10px 0px;
+}
+
+#PerfilExperienciaFromación {
+    /*height: 890px;*/
+    margin-bottom: 10px;
+    border: 0px;
+    padding-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+body {
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    margin: 0px;
+    padding: 5px;
+    border-bottom: rgb(243, 239, 239) 2px solid;
+    border-top: rgb(243, 239, 239) 2px solid;
+    font-size: 18px;
+}
+li {
+    list-style: circle;
+    font-size: small;
+    font-weight: bolder;
+    padding: 5px 2px;
+}
+ul {
+    margin: 3px 10px;
+}
+span {
+    padding-left: 15px;
+    font-weight: lighter;
+    font-size: small;
+}
+
+span > span {
+    padding-left: 0px;
+    font-size: small;
+}
+footer {
+    background-color: rgb(22, 209, 209);
+    height: 35px;
+    width: 100%;
+}
+
+p {
+    /*font-weight: lighter;*/
+    font-size: small;
+    text-align: justify;
+}
+p > span {
+    color: rgb(22, 209, 209);
+    padding-left: 0px;
+    font-weight: bold;
+}
+
+ul > ul > li {
+    list-style: square;
+    font-weight: unset;
+}
+
+label {
+    font-size: small;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#TemaOscuroLabel,
+#TemaOscuroCheck {
+    margin-left: 75%;
+    margin-top: 7px;
+}
+@media screen and (max-width: 950px) {
+    #ContenedorPrincipal,
+    #NombreApellido {
+        margin: 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #ContenedorPrincipal {
+        display: block;
+    }
+    #InformacionPersonal {
+        width: auto;
+    }
+    img {
+        display: block;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+    }
+
+    #PerfilExperienciaFromación {
+        margin-left: auto;
+    }
+
+    #TemaOscuroLabel,
+    #TemaOscuroCheck {
+        margin-left: 65%;
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 1360px) {
+    #ContenedorPrincipal,
+    #NombreApellido {
+        margin: 0px 12% 0px 12%;
+    }
+}
+
+@media screen and (max-width: 1256px) {
+    #ContenedorPrincipal,
+    #NombreApellido {
+        margin: 0px 11% 0px 11%;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    #ContenedorPrincipa,
+    #NombreApellido {
+        margin: 0px 10% 0px 10%;
+    }
+}
+
+@media screen and (max-width: 1195px) {
+    #ContenedorPrincipal,
+    #NombreApellido {
+        margin: 0px 9% 0px 9%;
+    }
+}
