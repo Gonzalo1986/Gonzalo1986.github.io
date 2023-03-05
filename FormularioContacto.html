@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+
+    <link rel="stylesheet" href="EstiloCV.css" />
+    <script src="MiScripFormulario.js"></script>
+    <script src="MiScripGeneral.js"></script>
+
+</head>
+
+<body>
+    <h1>Contacto</h1>
+    <form id="MiFormulario" method="post" action="">
+
+        <input type="text" id="nombreContacto" name="nombre" placeholder="Ingrese su nombre o el de la empresa"
+            required>
+        <input type="text" id="UbicacionContacto" name="ubicacion" placeholder="Ubicación / Dirección" required>
+        <input type="email" id="correoContacto" name="correo" placeholder="E-mail de contacto" required>
+        <input type="tel" id="telefonoContacto" name="telefono" placeholder="Teléfono de contacto" required>
+        <textarea id="mensajeContacto" name="mensaje" placeholder="Asunto o mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <footer>
+        <input type="button" value="Principal" id="botonContacto" onclick="LlevameA('index.html')">
+        <input type="checkbox" id="TemaOscuroCheck" name="TemaOscuro" value="NO">
+        <label for="TemaOscuro" id="TemaOcuroLabel"> Tema Oscuro</label>
+
+    </footer>
+</body>
+
+</html>
